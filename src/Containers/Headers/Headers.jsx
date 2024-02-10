@@ -1,12 +1,11 @@
 import './Headers.css'
 import ai from '../../assets/ai.png'
 import people from '../../assets/people.png'
-
 import React from 'react'
 
 export default function Headers() {
   return (
-    <div className='gpt3-header section-padding ' id='home'>
+    <div className='gpt3-header section_padding ' id='home'>
       <div className='gpt3-header-content'>
         <h1 className='gradient-text'>Let's Build Something Amazing With GPT-3 Open AI</h1>
         <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing.
@@ -27,7 +26,6 @@ export default function Headers() {
       <div className='gpt3-header-image'>
         <img src={ai} alt='ai' />
       </div>
-
     </div>
   )
 }
